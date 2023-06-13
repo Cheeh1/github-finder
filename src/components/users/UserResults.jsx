@@ -1,7 +1,7 @@
 import { useContext } from "react"
 import Spinner from "../layouts/Spinner"
 import UserItem from "./UserItem"
-import GithubContext from "../../contexts/GithubContext"
+import GithubContext from "../../contexts/github/GithubContext"
 
 const UserResults = () => {
 
@@ -19,7 +19,7 @@ const UserResults = () => {
             </>
         )
     } else {
-        return <Spinner /> 
+        return <Spinner />
     }
 }
 
